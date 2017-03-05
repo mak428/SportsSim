@@ -1,0 +1,8 @@
+ #!/bin/bash
+if [ -e ./cpptest ]; then
+    rm ./cpptest
+else
+    echo 
+fi
+ g++ -g --std=c++11 cpptest.cpp -o cpptest
+./cpptest
